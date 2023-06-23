@@ -1,0 +1,15 @@
+/* PHASE 7: Online */
+
+.online {
+    width: 100px;
+    font-size: 25px;
+    color: white;
+    padding: 2px;
+    background-color: pink;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+    display: block;
+    transform: rotate(-30deg) translateX(-40px);
+}
+
