@@ -1,6 +1,20 @@
 /* PHASE 8: Thumbs */
 .profile-friends {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
 }
+
+.profile-friends li {
+    list-style: none;
+  }
+  
+  .profile-friends li a {
+    display: block;
+    text-align: center;
+  }
+  
+  .profile-friends li img {
+    width: 100%;
+    height: auto;
+  }
